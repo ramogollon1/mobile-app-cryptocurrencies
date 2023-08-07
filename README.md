@@ -58,3 +58,14 @@ To view the test coverage report, run:
 ```bash
 yarn test -- --coverage
 ```
+
+### Demo iOS with 10 seconds to execute automatically
+
+https://github.com/ramogollon1/mobile-app-cryptocurrencies/assets/24425173/f57d4ad1-4ee0-4e2a-a96c-15d43bb1d594
+
+### Demo Android with 10 seconds to execute automatically
+
+
+https://github.com/ramogollon1/mobile-app-cryptocurrencies/assets/24425173/30a558ed-98bf-4fac-90f8-6d44e8f076fc
+
+
