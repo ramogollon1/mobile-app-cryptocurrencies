@@ -32,17 +32,20 @@ const OrderProvider: FC<OrderProviderProps> = ({ children }) => {
 
   const executeOrder = (orderId: number): void => {
     setOrders(prevOrders => {
-      return prevOrders.map(order => {
-        if (order.id === orderId) {
-          const newOrder = calculateAndAddCommission(order)
-          setTotalCommission(
-            prevCommission => prevCommission + (newOrder.commission || 0),
-          )
-          return newOrder
-        } else {
-          return order
-        }
-      })
+      const orderIndex = prevOrders.findIndex(order => order.id === orderId)
+      if (orderIndex === -1) {
+        return prevOrders
+      }
+
+      const newOrder = calculateAndAddCommission(prevOrders[orderIndex])
+      setTotalCommission(
+        prevCommission => prevCommission + (newOrder.commission || 0),
+      )
+
+      return [
+        ...prevOrders.slice(0, orderIndex),
+        ...prevOrders.slice(orderIndex + 1),
+      ]
     })
   }
 
