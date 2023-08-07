@@ -24,7 +24,7 @@ git clone https://github.com/ramogollon1/mobile-app-cryptocurrencies.git
 Install the application dependencies.
 
 ```bash
-cd CryptoExchangeApp
+cd mobile-app-cryptocurrencies
 yarn install
 ```
 
