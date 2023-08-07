@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderModePicker renders correctly 1`] = `
+<View>
+  <RNCPicker
+    items={
+      [
+        {
+          "label": "limit",
+          "testID": "limit",
+          "textColor": undefined,
+          "value": "limit",
+        },
+        {
+          "label": "market",
+          "testID": "market",
+          "textColor": undefined,
+          "value": "market",
+        },
+      ]
+    }
+    numberOfLines={1}
+    onChange={[Function]}
+    selectedIndex={0}
+    style={
+      [
+        {
+          "height": 216,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
