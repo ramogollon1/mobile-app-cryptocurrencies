@@ -68,4 +68,13 @@ https://github.com/ramogollon1/mobile-app-cryptocurrencies/assets/24425173/f57d4
 
 https://github.com/ramogollon1/mobile-app-cryptocurrencies/assets/24425173/30a558ed-98bf-4fac-90f8-6d44e8f076fc
 
+### Technologies
 
+- React Native versión 0.72.3
+- React 18.2.0
+- Axios
+-Jest
+- @testing-library/react-native
+- Eslint
+- Prettier
+- TypeScript
